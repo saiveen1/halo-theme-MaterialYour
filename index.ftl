@@ -23,6 +23,14 @@
                     <a href="mailto:${settings.email!}" target="_blank">
                         <i class="mdui-icon icon-mail"></i>
                     </a>
+                    <#if settings.telegram??>
+                    <a href="${settings.telegram!}" target="_blank">
+                        <i class="mdui-icon icon-telegram"></i>
+                    </a>
+                    <#if settings.wechat??>
+                    <a href="${settings.wechat!}" target="_blank">
+                        <i class="mdui-icon icon-wechat"></i>
+                    </a>
                     </#if>
 
                     
