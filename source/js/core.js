@@ -167,6 +167,7 @@ const dnxrzl = {
         headingsOffset: 80,
         scrollSmoothOffset: -80,
         fixedSidebarOffset: 'auto',
+        isCollapsedClass: '',
       });
       if ($(".pindex,.mobileIndex").children().length == 0) {
         t++;
