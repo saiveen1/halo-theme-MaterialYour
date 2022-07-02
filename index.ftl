@@ -23,18 +23,18 @@
                     <a href="mailto:${settings.email!}" target="_blank">
                         <i class="mdui-icon icon-mail"></i>
                     </a>
+                    </#if>
                     <#if settings.telegram??>
                     <a href="${settings.telegram!}" target="_blank">
                         <i class="mdui-icon icon-telegram"></i>
                     </a>
+                    </#if>               
                     <#if settings.wechat??>
-                    <a href="${settings.wechat!}" target="_blank">
-                        <i class="mdui-icon icon-wechat"></i>
+                    <a href="#" target="_blank">
+                        <img src"${settings.wechat}" alt="">
+                        <i class="mdui-icon icon-telegram" style="display: none"></i>
                     </a>
                     </#if>
-
-                    
-                    
                 </div>
             </div>
             <div class="welcome__figures">

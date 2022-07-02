@@ -13,9 +13,12 @@
 
 /*网络字体*/
 @font-face {
-  font-family: "icomoon";
-  src: url("../fonts/icomoon/icomoon.eot?kg04oy");
-  src: url("../fonts/icomoon/icomoon.eot?kg04oy#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?kg04oy") format("truetype"), url("../fonts/icomoon/icomoon.woff?kg04oy") format("woff"), url("../fonts/icomoon/icomoon.svg?kg04oy#icomoon") format("svg");
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?gwjo33');
+  src:  url('fonts/icomoon.eot?gwjo33#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?gwjo33') format('truetype'),
+    url('fonts/icomoon.woff?gwjo33') format('woff'),
+    url('fonts/icomoon.svg?gwjo33#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -23,25 +26,38 @@
 
 i {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: "icomoon";
+  font-family: 'icomoon' !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
   line-height: 1;
+
+  /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.icon-folder-open-o:before {
-  content: "\f115";
-}
-.icon-github:before {
+
+.icon-wechat:before {
   content: "\e900";
 }
-.icon-mail:before {
-  content: "\e901";
+.icon-weixin:before {
+  content: "\e900";
 }
+.icon-folder-open:before {
+  content: "\f100";
+}
+.icon-mail4:before {
+  content: "\ea86";
+}
+.icon-telegram:before {
+  content: "\e902";
+}
+.icon-github:before {
+  content: "\e903";
+}
+
 /*网络字体结束*/
 /*重写滚动条*/
 body::-webkit-scrollbar {
