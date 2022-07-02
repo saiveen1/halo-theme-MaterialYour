@@ -2,22 +2,28 @@
 <@layout title="${blog_title!}">
 <main class="self-container mdui-container">
     <div class="containerLeft">
-        <div class="index-cover animate__animated animate__fadeInDown">
+        <div class="index-cover animate__animated">
             <div class="welcome_media">
                 <img src="${settings.indeximg!'${theme_base!}/source/images/indexBack.jpg'}" alt="">
             </div>
             <div class="welcome">
                 <div class="welcome_hello"></div>
                 <div class="welcome_descr">
+                <#if settings.aWord_enabled != true>
                     ${settings.index_notice!default}
+                </#if>
                 </div>
                 <div class="welcome_contact">
+                    <#if settings.github??>
                     <a href="${settings.github!}" target="_blank">
                         <i class="mdui-icon icon-github"></i>
                     </a>
+                    </#if>
+                    <#if settings.email??>
                     <a href="mailto:${settings.email!}" target="_blank">
                         <i class="mdui-icon icon-mail"></i>
                     </a>
+                    </#if>
 
                     
                     
