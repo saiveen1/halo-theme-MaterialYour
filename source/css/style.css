@@ -12,21 +12,22 @@
 
 
 /*网络字体*/
+/* https://icomoon.io/ */
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?gwjo33');
-  src:  url('fonts/icomoon.eot?gwjo33#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?gwjo33') format('truetype'),
-    url('fonts/icomoon.woff?gwjo33') format('woff'),
-    url('fonts/icomoon.svg?gwjo33#icomoon') format('svg');
+  src:  url('fonts/ic');
+  src:  url('fonts/icomoon.eot?28pepu#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?28pepu') format('truetype'),
+    url('fonts/icomoon.woff?28pepu') format('woff'),
+    url('fonts/icomoon.svg?28pepu#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
 i {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
+  /* 必须去掉important */
+  font-family: 'icomoon';
   speak: never;
   font-style: normal;
   font-weight: normal;
@@ -40,23 +41,24 @@ i {
 }
 
 .icon-wechat:before {
-  content: "\e900";
+  content: "\1f305";
 }
 .icon-weixin:before {
-  content: "\e900";
+  content: "\1f305";
 }
 .icon-folder-open:before {
-  content: "\f100";
+  content: "\1f354";
 }
 .icon-mail4:before {
-  content: "\ea86";
+  content: "\1f300";
 }
 .icon-telegram:before {
-  content: "\e902";
+  content: "\1f385";
 }
 .icon-github:before {
-  content: "\e903";
+  content: "\1f36a";
 }
+
 
 /*网络字体结束*/
 /*重写滚动条*/
