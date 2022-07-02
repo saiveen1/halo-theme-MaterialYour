@@ -10,6 +10,8 @@
 }
 /*主题色结束*/
 
+
+/*重写滚动条*/
 body::-webkit-scrollbar {
   width: 8px;
   height: 8px;
@@ -1235,4 +1237,9 @@ aside.mdui-drawer {
   animation-duration: 1.5s !important; 
   -webkit-animation-delay: .2s;
   animation-delay: .25s;
+}
+
+.svg-icon {
+  width: 32px;
+  height: 32px;
 }
