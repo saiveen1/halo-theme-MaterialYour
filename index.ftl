@@ -29,12 +29,11 @@
                     <a href="${settings.telegram!}" target="_blank">
                         <img src="${theme_base!}/source/images/profile/telegram.svg" alt="">   
                     </a>
-                    </#if>               
+                    </#if>     
                     <#if settings.wechat??>
-                    <a href="#" target="_blank">
-                        <img src"${settings.wechat}" alt=""  style="display: none">
-                        <img src="${theme_base!}/source/images/profile/wechat.svg" alt="">    
-                    </a>
+                        <a data-fancybox="gallery" data-src="${settings.wechat}">
+                            <img src="${theme_base!}/source/images/profile/wechat.svg" alt="">
+                        </a>
                     </#if>
                 </div>
             </div>
