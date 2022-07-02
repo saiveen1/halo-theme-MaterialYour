@@ -13,6 +13,7 @@
                     ${settings.index_notice!default}
                 </#if>
                 </div>
+                <#--  https://icon-sets.iconify.design/  -->
                 <div class="welcome_contact">
                     <#if settings.github??>
                     <a href="${settings.github!}" target="_blank">
