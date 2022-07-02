@@ -21,7 +21,7 @@
                     </#if>
                     <#if settings.email??>
                     <a href="mailto:${settings.email!}" target="_blank">
-                        <i class="mdui-icon icon-mail"></i>
+                        <i class="mdui-icon icon-mail4"></i>
                     </a>
                     </#if>
                     <#if settings.telegram??>
@@ -31,8 +31,8 @@
                     </#if>               
                     <#if settings.wechat??>
                     <a href="#" target="_blank">
-                        <img src"${settings.wechat}" alt="">
-                        <i class="mdui-icon icon-telegram" style="display: none"></i>
+                        <img src"${settings.wechat}" alt=""  style="display: none">
+                        <i class="mdui-icon icon-telegram"></i>
                     </a>
                     </#if>
                 </div>
